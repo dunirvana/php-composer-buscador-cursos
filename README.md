@@ -25,3 +25,7 @@
     ```
     composer require --dev phpunit/phpunit ^9.3
     ```
+  * Para usar ferramentas que auxiliam no desenvolvimento, como a execução de testes por exemplo (considerando um script chamado "test"):
+    ```
+    composer run test
+    ```
