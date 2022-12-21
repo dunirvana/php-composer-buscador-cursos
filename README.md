@@ -21,3 +21,7 @@
     ```
     composer dumpautoload
     ```
+  * Para instalar no projeto ferramentas para auxiliar no desenvolvimento, ou seja, algo que não será disponibilizado ao cliente como uma ferramenta de testes por exemplo:
+    ```
+    composer require --dev phpunit/phpunit ^9.3
+    ```
