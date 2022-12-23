@@ -25,7 +25,16 @@
     ```
     composer require --dev phpunit/phpunit ^9.3
     ```
-  * Para usar ferramentas que auxiliam no desenvolvimento, como a execução de testes por exemplo (considerando um script chamado "test"):
-    ```
-    composer run test
-    ```
+  * Para usar ferramentas que auxiliam no desenvolvimento:
+    + Execução de testes (considerando um script chamado "test"):
+      ```
+      composer run test
+      ```
+    + Verificar se o código esta no padrão:
+      ```
+      vendor\bin\phpcs --standard=PSR12 src\
+      ```
+    + Verificar erros no código
+      ```
+      vendor\bin\phan --allow-polyfill-parser
+      ```
