@@ -30,11 +30,11 @@
       ```
       composer run test
       ```
-    + Verificar se o código esta no padrão:
+    + Verificar se o código esta no padrão (considerando um script chamado "cs"):
       ```
-      vendor\bin\phpcs --standard=PSR12 src\
+      composer run cs
       ```
-    + Verificar erros no código
+    + Verificar erros no código (considerando um script chamado "phan"):
       ```
-      vendor\bin\phan --allow-polyfill-parser
+      composer run phan
       ```
